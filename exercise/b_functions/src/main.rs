@@ -63,6 +63,7 @@ fn inspect_integer(x: i32) {
 }
 
 
+// Extra: just to visualise how recursion would work in Rust (its the same lol)
 fn factorial(num: u32) -> u32 {
     if num <= 1 {
         return 1;
