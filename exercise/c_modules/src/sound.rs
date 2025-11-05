@@ -8,14 +8,5 @@
 // - Change the function calls to access the functions through the `sound` module.
 //   For example: sound::dog()
 
-pub fn dog() {
-    println!("Dog goes WOOF!");
-}
-
-pub fn cat() {
-    println!("Cat goes MEOW!");
-}
-
-pub fn fox() {
-    println!("What does the fox say???");
-}
+pub mod tame;
+pub mod wild;
