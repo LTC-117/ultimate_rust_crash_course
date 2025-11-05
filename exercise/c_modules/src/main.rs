@@ -8,22 +8,15 @@ use animal::{
 
 fn main() {
     print!("Listening to animal {}: ", FIRST);
-    sound::dog();
+    sound::tame::dog();
 
     print!("Listening to animal {}: ", SECOND);
-    sound::cat();
+    sound::tame::cat();
 
     print!("Listening to animal {}: ", THIRD);
-    sound::fox();
+    sound::wild::fox();
 }
 
-// Challenge 1
-//
-// - Move the `dog` and `cat` functions into a submodule `animal::sound::tame`
-// - Move the `fox` function into a submodule `animal::sound::wild`
-//
-// Hint: You will need to create a subdirectory for the top-level `sound` modules' submodules to
-// be placed in.
 
 // Challenge 2
 //
